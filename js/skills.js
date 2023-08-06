@@ -10,20 +10,16 @@ var $skills = {
             path: "css.png"
         },
         {
-            title: "Sass",
-            path: "sass.png"
-        },
-        {
             title: "JavaScript ES6",
             path: "javascript.png"
         },
         {
-            title: "TypeScript",
-            path: "typescript.png"
-        },
-        {
             title: "JQuery",
             path: "jquery.png"
+        },
+        {
+            title: "TypeScript",
+            path: "typescript.png"
         },
         {
             title: "React JS",
@@ -32,6 +28,14 @@ var $skills = {
         {
             title: "Vue JS",
             path: "vuejs.png"
+        },
+        {
+            title: "Node JS",
+            path: "nodejs.png"
+        },
+        {
+            title: "Vite JS",
+            path: "vitejs.png"
         }
     ],
 

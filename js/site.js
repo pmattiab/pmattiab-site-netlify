@@ -92,7 +92,7 @@ $(document).ready(function(){
             $(copied).fadeIn();
             setTimeout(function() {
                 $(copied).fadeOut();
-            },2000);
+            }, 2000);
         });
     }
 
@@ -106,26 +106,26 @@ $(document).ready(function(){
                 $element.frontEndContainer.css({opacity:0});
                 $element.backEndContainer.css({opacity:0});
                 $element.toolsContainer.css({opacity:0});
-            }, 1000);
+            }, 500);
         }
         
         $element.activeSection = "skills";
         
         setTimeout(function(){
             $element.skills.fadeIn();
-        }, 1000);
+        }, 500);
 
         setTimeout(function(){
             $element.frontEndContainer.animate({opacity:1});
-        }, 2000);
+        }, 1500);
 
         setTimeout(function(){
             $element.backEndContainer.animate({opacity:1});
-        }, 3000);
+        }, 2500);
 
         setTimeout(function(){
             $element.toolsContainer.animate({opacity:1});
-        }, 4000);
+        }, 3500);
     });
 
     $element.navContacts.on("click", function(){
@@ -145,19 +145,19 @@ $(document).ready(function(){
         
         setTimeout(function(){
             $element.contacts.fadeIn();
-        }, 1000);
+        }, 500);
 
         setTimeout(function(){
             $element.linkedinContact.animate({opacity:1});
-        }, 2000);
+        }, 1500);
 
         setTimeout(function(){
             $element.businessEmailContact.animate({opacity:1});
-        }, 3000);
+        }, 2500);
 
         setTimeout(function(){
             $element.personalEmailContact.animate({opacity:1});
-        }, 4000);
+        }, 3500);
     });
 
     bindingSkills();
