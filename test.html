@@ -1,5 +1,5 @@
 <html lang="it_IT">
-<title>DAST | PLAYER</title>
+<title>TEST PLAYER</title>
 <link rel="icon" type="image/png" href="./images/new2.png" />
 
 <body style="padding: 0px; margin: 0px; background-color: #0d161d;">
@@ -12,15 +12,15 @@
 		<div id="player-container"></div>
 		<script>
 			jwplayer("player-container").setup({
-				// file: "https://dastxui.ddns.net:443/play/FL4c08n6PSe2rRIHSYvUJ03ia2l3HCfNhQR8Oy_fLMQ/m3u8" summer,
-				// file: "https://dastxui.ddns.net:443/play/FL4c08n6PSe2rRIHSYvUJ-nt765wkIidexlNu042TPs/m3u8" f1,
-				file: "https://dastxui.ddns.net:443/play/FL4c08n6PSe2rRIHSYvUJ33U9PNh2XNmF9hFKaGMlLk/m3u8", // calcio
+				file: "https://dastxui.ddns.net:443/play/FL4c08n6PSe2rRIHSYvUJ03ia2l3HCfNhQR8Oy_fLMQ/m3u8", //summer
+				//file: "https://dastxui.ddns.net:443/play/FL4c08n6PSe2rRIHSYvUJ-nt765wkIidexlNu042TPs/m3u8", //f1
+				//file: "https://dastxui.ddns.net:443/play/FL4c08n6PSe2rRIHSYvUJ33U9PNh2XNmF9hFKaGMlLk/m3u8", //calcio
 				type: "hls",
-				width: "100%",
-				height: "100%",
+				width: "91%",
+				height: "91%",
 				aspectratio: "16:9",
 				allowfullscreen: true,
-				autostart: true,
+				autostart: false,
 				skin: {
 					name: "",
 					active: "RED",
@@ -28,10 +28,32 @@
 					background: ""
 				}
 			});
-			jwplayer("player").on("play", function (e) { jwplayer("player").setCurrentAudioTrack(1) });
+			//jwplayer("player").on("play", function (e) { jwplayer("player").setCurrentAudioTrack(1) });
 		</script>
 	</body>
 	<style>
+
+		#player-container {
+			margin: auto;
+		}
+
+		@font-face {
+			font-family: 'DaznTrimBold';
+			src: url('path/al/font/DaznTrimBold.ttf') format('truetype');
+			font-weight: bold;
+			font-style: normal
+		}
+
+		#text-under-player {
+			text-align: center
+		}
+
+		#text-under-player a {
+			color: yellow;
+			font-family: 'DaznTrimBold', sans-serif;
+			font-size: 1.8em
+		}
+
 		@keyframes blink {
 			0% {
 				opacity: 1;
@@ -49,24 +71,6 @@
 		.jw-text-live::before {
 			background-color: red !important;
 			animation: blink 1s infinite;
-		}
-	</style>
-	<style>
-		@font-face {
-			font-family: 'DaznTrimBold';
-			src: url('path/al/font/DaznTrimBold.ttf') format('truetype');
-			font-weight: bold;
-			font-style: normal
-		}
-
-		#text-under-player {
-			text-align: center
-		}
-
-		#text-under-player a {
-			color: yellow;
-			font-family: 'DaznTrimBold', sans-serif;
-			font-size: 1.8em
 		}
 	</style>
 	</head>
