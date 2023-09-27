@@ -12,7 +12,7 @@ var channels = [
         "name": "LIVE 1",
         "class": "channel-pro",
         "id": "",
-        "url": "https://dca-ac-live.cdn.indazn.com/2mxidohj8mp91ci3wf7h6k46x/web/stream.mpd?channel=1382&outlet=dazn-italy&plang=en",
+        "url": "https://dca-ac-live.cdn.indazn.com/fie0yewrxi1a1eqf3bbebpyzi/web/stream.mpd?channel=3916&outlet=dazn-italy&plang=en",
         "keyId": "cfb5e2b73bef4f3c878f25ab86a7451f",
         "key": "0d6712bf2a84edcc93d001a9613f6fec",
         "type": "dash"
