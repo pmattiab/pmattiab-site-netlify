@@ -9,10 +9,10 @@
         <title>Rosa US Avellino</title>
 
         <link rel="stylesheet" href="css/bootstrap.dark.min.css">
-        <!-- <link rel="stylesheet" href="css/site.css?v=1.4"> -->
+        <link rel="stylesheet" href="css/fontawesome-6.1.1/css/all.min.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="css/fontawesome-6.1.1/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
 
     </head>
 
@@ -20,19 +20,35 @@
 
         body {
             font-family: "Poppins", sans-serif;
+            padding: 20px 0;
+        }
+
+        .title h5 {
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .list-title {
+            font-weight: bold;
+            background-color: #043900;
+            margin-top: 20px;
+        }
+
+        .list-title.uscita {
+            background-color: #390000;
         }
 
     </style>
 
-    <body class="bootstrap pt-3 pb-4">
+    <body>
 
         <main>
 
             <div class="container">
 
-                <div class="row mb-3">
-                    <div class="col text-center">
-                        <h5 class="font-weight-bold">ROSA US AVELLINO</h5>
+                <div class="row">
+                    <div class="col text-center title">
+                        <h5>ROSA US AVELLINO</h5>
                     </div>
                 </div>
 
@@ -40,14 +56,14 @@
                     <div class="col">
                         
                         <ul class="list-group">
-                            <li class="list-group-item font-weight-bold" style="background-color: #043900;">PORTIERI</li>
+                            <li class="list-group-item list-title">PORTIERI</li>
                             <li class="list-group-item">01. Ghidotti</li>
                             <li class="list-group-item">02. Pane</li>
                             <li class="list-group-item">03. Pizzella</li>
                         </ul>
 
                         <ul class="list-group">
-                            <li class="list-group-item font-weight-bold" style="background-color: #043900;">DIFENSORI</li>
+                            <li class="list-group-item list-title">DIFENSORI</li>
                             <li class="list-group-item">04. Rigione</li>
                             <li class="list-group-item">05. Cionek</li>
                             <li class="list-group-item">06. Benedetti</li>
@@ -56,39 +72,26 @@
                         </ul>
 
                         <ul class="list-group">
-                            <li class="list-group-item font-weight-bold" style="background-color: #043900;">ESTERNI</li>
-                            <li class="list-group-item">04. Rigione</li>
-                            <li class="list-group-item">05. Cionek</li>
-                            <li class="list-group-item">06. Benedetti</li>
-                            <li class="list-group-item">07. Mulè</li>
+                            <li class="list-group-item list-title">ESTERNI</li>
+                            <li class="list-group-item">09. Ricciardi</li>
+                            <li class="list-group-item">10. Garattoni / Molina / Coccia</li>
+                            <li class="list-group-item">11. Tito</li>
+                            <li class="list-group-item">12. Liotti</li>
+                        </ul>
+
+                        <ul class="list-group">
+                            <li class="list-group-item list-title">CENTROCAMPISTI</li>
+                            <li class="list-group-item">13. Palmiero</li>
+                            <li class="list-group-item">14. D'Angelo</li>
+                            <li class="list-group-item">15. Dall'Oglio</li>
+                            <li class="list-group-item">16. Casarini</li>
+                            <li class="list-group-item">17. Armellino</li>
+                            <li class="list-group-item">18. De Cristofaro</li>
+                            <li class="list-group-item">19. Varela</li>
                         </ul>
                         
-                        09. Ricciardi
-                        10. Garattoni / Molina / Coccia
-                        11. Tito
-                        12. Liotti
-
                         <ul class="list-group">
-                            <li class="list-group-item font-weight-bold" style="background-color: #043900;">CENTROCAMPISTI</li>
-                            <li class="list-group-item">04. Rigione</li>
-                            <li class="list-group-item">05. Cionek</li>
-                            <li class="list-group-item">06. Benedetti</li>
-                            <li class="list-group-item">07. Mulè</li>
-                            <li class="list-group-item">05. Cionek</li>
-                            <li class="list-group-item">06. Benedetti</li>
-                            <li class="list-group-item">07. Mulè</li>
-                        </ul>
-
-                        13. Palmiero
-                        14. D'Angelo
-                        15. Dall'Oglio
-                        16. Casarini
-                        17. Armellino
-                        18. De Cristofaro
-                        19. Varela
-
-                        <ul class="list-group">
-                            <li class="list-group-item font-weight-bold" style="background-color: #043900;">ATTACCANTI</li>
+                            <li class="list-group-item list-title">ATTACCANTI</li>
                             <li class="list-group-item">20. Russo</li>
                             <li class="list-group-item">21. Marconi</li>
                             <li class="list-group-item">22. Sgarbi</li>
@@ -97,7 +100,7 @@
                         </ul>
 
                         <ul class="list-group">
-                            <li class="list-group-item font-weight-bold" style="background-color: #390000;">IN USCITA</li>
+                            <li class="list-group-item list-title uscita">IN USCITA</li>
                             <li class="list-group-item">Mazzocco (fuori rosa)</li>
                             <li class="list-group-item">D'Amico (fuori rosa)</li>
                             <li class="list-group-item">Falbo</li>
