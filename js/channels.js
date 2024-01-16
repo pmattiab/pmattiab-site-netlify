@@ -111,27 +111,9 @@ var channels = [
         "name": "EURO 1",
         "class": "channel-pro",
         "id": "",
-        "url": "https://dce-ac-live.cdn.indazn.com/dashdrm/dazn-linear-029/stream.mpd?p=web",
-        "keyId": "82f8e2a17dac44c0a18f660479349c59",
-        "key": "1b144f73e6fefe91cd05f850e2b589d0",
-        "type": "dash"
-    },
-    {
-        "name": "EURO 1",
-        "class": "channel-pro",
-        "id": "",
         "url": "https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(eurosport1)/manifest.mpd",
         "keyId": "4ea1bc7ef2734fd2b17b399f1387ec3a",
         "key": "90ed1ac75cebed74e248d5cb3b5d5a61",
-        "type": "dash"
-    },
-    {
-        "name": "EURO 2",
-        "class": "channel-pro",
-        "id": "",
-        "url": "https://dce-ac-live.cdn.indazn.com/dashdrm/dazn-linear-030/stream.mpd?p=web",
-        "keyId": "82f8e2a17dac44c0a18f660479349c59",
-        "key": "1b144f73e6fefe91cd05f850e2b589d0",
         "type": "dash"
     },
     {
