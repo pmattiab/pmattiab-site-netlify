@@ -3,7 +3,7 @@ var channels = [
         "name": "ZONA D",
         "class": "channel-pro",
         "id": "",
-        "url": "https://dce-ac-live.cdn.indazn.com/dashdrm/dazn-linear-024/stream.mpd?p=web",
+        "url": "https://dcf-de-livedazn.daznedge.net/dashdrm/dazn-linear-024/stream.mpd",
         "keyId": "82f8e2a17dac44c0a18f660479349c59",
         "key": "1b144f73e6fefe91cd05f850e2b589d0",
         "type": "dash"
