@@ -89,24 +89,24 @@ var channels = [
         "key": "4fbb022704c9abcbb709484a5667fd79",
         "type": "dash"
     },
-    {
-        "name": "NBA",
-        "class": "channel-pro",
-        "id": "",
-        "url": "https://linear308-it-dash1-prd.selector.skycdn.it/016a/31764/FHD/skysportnba/master.mpd",
-        "keyId": "0036c4e453ae2a044f4c861ed73b560a",
-        "key": "ea5626c0aa092c382ca58151b5f4b208",
-        "type": "dash"
-    },
-    {
-        "name": "GOLF",
-        "class": "channel-pro",
-        "id": "",
-        "url": "https://linear309-it-dash1-prd.selector.skycdn.it/016a/32768/FHD/skysportgolf/master.mpd",
-        "keyId": "0036a02f08506f8428164d78e3ebb6de",
-        "key": "8708612971e3cfa8e03698996b1a3b7f",
-        "type": "dash"
-    },
+    // {
+    //     "name": "NBA",
+    //     "class": "channel-pro",
+    //     "id": "",
+    //     "url": "https://linear308-it-dash1-prd.selector.skycdn.it/016a/31764/FHD/skysportnba/master.mpd",
+    //     "keyId": "0036c4e453ae2a044f4c861ed73b560a",
+    //     "key": "ea5626c0aa092c382ca58151b5f4b208",
+    //     "type": "dash"
+    // },
+    // {
+    //     "name": "GOLF",
+    //     "class": "channel-pro",
+    //     "id": "",
+    //     "url": "https://linear309-it-dash1-prd.selector.skycdn.it/016a/32768/FHD/skysportgolf/master.mpd",
+    //     "keyId": "0036a02f08506f8428164d78e3ebb6de",
+    //     "key": "8708612971e3cfa8e03698996b1a3b7f",
+    //     "type": "dash"
+    // },
     {
         "name": "EURO 1",
         "class": "channel-pro",
