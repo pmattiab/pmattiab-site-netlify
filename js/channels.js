@@ -3,20 +3,20 @@ var channels = [
         "name": "ZONA D",
         "class": "channel-pro",
         "id": "",
-        "url": "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-024/stream.mpd?p=web",
+        "url": "https://dce-ac-live.cdn.indazn.com/dash/dazn-linear-024/stream.mpd?p=web",
         "keyId": "82f8e2a17dac44c0a18f660479349c59",
         "key": "1b144f73e6fefe91cd05f850e2b589d0",
         "type": "dash"
     },
-    {
-        "name": "LIVE 1",
-        "class": "channel-pro",
-        "id": "",
-        "url": "https://dca-ac-live.cdn.indazn.com/1j2v804xh5v1w1i8sosc5frnir/web/stream.mpd?channel=1383&mta=it&outlet=dazn-italy&plang=en",
-        "keyId": "cfb5e2b73bef4f3c878f25ab86a7451f",
-        "key": "0d6712bf2a84edcc93d001a9613f6fec",
-        "type": "mpd"
-    },
+    // {
+    //     "name": "LIVE 1",
+    //     "class": "channel-pro",
+    //     "id": "",
+    //     "url": "https://dca-ac-live.cdn.indazn.com/1j2v804xh5v1w1i8sosc5frnir/web/stream.mpd?channel=1383&mta=it&outlet=dazn-italy&plang=en",
+    //     "keyId": "cfb5e2b73bef4f3c878f25ab86a7451f",
+    //     "key": "0d6712bf2a84edcc93d001a9613f6fec",
+    //     "type": "mpd"
+    // },
     {
         "name": "24",
         "class": "channel-pro",
