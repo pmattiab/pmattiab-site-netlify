@@ -50,7 +50,8 @@ let channels =
 	},
     {
 		title: "DAZN", type: "mpd", keyId: "8ab47741930c476780515f9a00decb0a", key: "7ab4b9ae5a48aa526e511a913b832769",
-		file: "https://dcf-de-livedazn.daznedge.net/dash/dazn-linear-024/stream.mpd?p=web", content: "calcio"
+		//file: "https://dcf-de-livedazn.daznedge.net/dash/dazn-linear-024/stream.mpd?p=web", content: "calcio"
+        file: "https://dcf-de-livedazn.daznedge.net/dash/dazn-linear-024/stream.mpd", content: "calcio"
 	},
 	{
 		// title: "ELEVEN SPORT", type: "mpd", keyId: "9d042fa273964e24a9109e23f4e313cc", key: "540e3601e1b82192c76c7411ad9c8c8e",
@@ -170,6 +171,14 @@ let channels =
     {
         title: "ARTE", type: "mpd", keyId:"0036798d4dc4ce189b2f029a4b4aa06c", key: "4f668ba0ef796d807c90613b9e2e61bf",
         file: "https://linear313-it-dash1-prd-akp2.cdn13.skycdp.com/016a/32074/FHD/skyarte/master.mpd", content: "intrattenimento"
+    },
+    {
+        title: "DMAX", type: "m3u8", keyId:"", key: "",
+        file: "https://amg16146-wbdi-amg16146c8-samsung-it-1841.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-dmax-samsungit/playlist.m3u8", content: "intrattenimento"
+    },
+    {
+        title: "MTV", type: "mpd", keyId:"00364d417e7aab8e6a92c963f2d24549", key: "a875a90e31b98eab8430e894ee5a853e",
+        file: "https://linear315-it-dash1-prd-akg0.cdn13.skycdp.com/016a/32763/FHD/mtvnext/master.mpd", content: "intrattenimento"
     },
     {
         title: "MTV", type: "mpd", keyId:"00364d417e7aab8e6a92c963f2d24549", key: "a875a90e31b98eab8430e894ee5a853e",
