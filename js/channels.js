@@ -137,7 +137,7 @@ let channels =
 	},
     {
         title: "UNO", type: "mpd", keyId: "003610b8556000936e48061cdb4ee11a", key: "2cd6bcc2160aa6ec048e5a5f7a0f73c8",
-        file: "ttps://linear313-it-dash1-prd.selector.skycdn.it/016a/32477/FHD/skyuno/master.mpd", content: "intrattenimento"
+        file: "https://linear313-it-dash1-prd.selector.skycdn.it/016a/32477/FHD/skyuno/master.mpd", content: "intrattenimento"
     },
     {
         title: "ATLANTIC", type: "mpd", keyId: "0036d37875a7307fd4551bcd6e466882", key: "a8cdc74a5d05c7a45c551af45aa5549c",
