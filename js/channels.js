@@ -21,6 +21,22 @@ let channels =
 		file: "https://linear304-it-dash1-prd-akp2.cdn13.skycdp.com/016a/31024/FHD/skysportarena/master.mpd", content: "sport"
 	},
     {
+		title: "TENNIS", type: "mpd", keyId: "0036fb7c564c4eb99e310f5fa82ab2f2", key: "647f07b6858a669456e73ca103b4c2c0",
+		file: "https://linear310-it-dash1-prd.selector.skycdn.it/016a/32559/FHD/skysporttennis/master.mpd", content: "sport"
+	},
+	{
+		title: "NBA", type: "mpd", keyId: "00364eac2ffee337640e39682439b540", key: "0960172d9000c470ade0658bd36c1d53",
+		file: "https://linear308-it-dash1-prd-akp2.cdn13.skycdp.com/016a/31764/FHD/skysportnba/master.mpd", content: "sport"
+	},
+	{
+		title: "MAX", type: "mpd", keyId: "0036f13bca1c5603b9f3bb28ec28fa80", key: "f01403bcb5a02c61153d297fb0c4395f",
+		file: "https://linear305-it-dash1-prd-akp2.cdn13.skycdp.com/016a/31248/FHD/skysportmax/master.mpd", content: "sport"
+	},
+	{
+		title: "GOLF", type: "mpd", keyId: "00360b7729f74bf56a0a4eb0eda15ec5", key: "f8a5f4723c71ac84c2f1ff6f55939a63",
+		file: "https://linear309-it-dash1-prd-akp2.cdn13.skycdp.com/016a/32768/FHD/skysportgolf/master.mpd", content: "sport"
+	},
+    {
 		title: "CALCIO", type: "mpd", keyId: "00362f95db61eba0e6f14acee3f71e01", key: "fb74cd84b53c7557e18424a3356c4665",
 		file: "https://linear302-it-dash1-prd.selector.skycdn.it/016a/31209/FHD/skysportseriea/master.mpd", content: "sport"
 	},
