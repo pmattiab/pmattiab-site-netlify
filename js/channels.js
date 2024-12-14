@@ -9,35 +9,35 @@ let channels =
 		file: "https://linear301-it-dash1-prd.selector.skycdn.it/016a/31023/FHD/skysportuno/master.mpd", content: "sport"
 	},
 	{
-		title: "F1", type: "mpd", keyId: "0036a96b6bbbf1828488f90e6b2ca1f4", key: "d24e6ae926e88f8303b6926271ff8155",
+		title: "SPORT F1", type: "mpd", keyId: "0036a96b6bbbf1828488f90e6b2ca1f4", key: "d24e6ae926e88f8303b6926271ff8155",
 		file: "https://linear307-it-dash1-prd.selector.skycdn.it/016a/31478/FHD/skysportf1/master.mpd", content: "sport"
 	},
 	{
-		title: "MOTO GP", type: "mpd", keyId: "00362e9181eaa0c5f91761ade3515eb8", key: "52cf3c27885d58ad76aaf36d4217a984",
+		title: "SPORT MOTOGP", type: "mpd", keyId: "00362e9181eaa0c5f91761ade3515eb8", key: "52cf3c27885d58ad76aaf36d4217a984",
 		file: "https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master.mpd", content: "sport"
 	},
 	{
-		title: "ARENA", type: "mpd", keyId: "00368f2bf10736c9c2c02ab0fa694d00", key: "92eec9d841ac0c1ff16b90a0db82c792",
+		title: "SPORT ARENA", type: "mpd", keyId: "00368f2bf10736c9c2c02ab0fa694d00", key: "92eec9d841ac0c1ff16b90a0db82c792",
 		file: "https://linear304-it-dash1-prd-akp2.cdn13.skycdp.com/016a/31024/FHD/skysportarena/master.mpd", content: "sport"
 	},
     {
-		title: "TENNIS", type: "mpd", keyId: "0036fb7c564c4eb99e310f5fa82ab2f2", key: "647f07b6858a669456e73ca103b4c2c0",
+		title: "SPORT TENNIS", type: "mpd", keyId: "0036fb7c564c4eb99e310f5fa82ab2f2", key: "647f07b6858a669456e73ca103b4c2c0",
 		file: "https://linear310-it-dash1-prd.selector.skycdn.it/016a/32559/FHD/skysporttennis/master.mpd", content: "sport"
 	},
 	{
-		title: "NBA", type: "mpd", keyId: "00364eac2ffee337640e39682439b540", key: "0960172d9000c470ade0658bd36c1d53",
+		title: "SPORT NBA", type: "mpd", keyId: "00364eac2ffee337640e39682439b540", key: "0960172d9000c470ade0658bd36c1d53",
 		file: "https://linear308-it-dash1-prd-akp2.cdn13.skycdp.com/016a/31764/FHD/skysportnba/master.mpd", content: "sport"
 	},
 	{
-		title: "MAX", type: "mpd", keyId: "0036f13bca1c5603b9f3bb28ec28fa80", key: "f01403bcb5a02c61153d297fb0c4395f",
+		title: "SPORT MAX", type: "mpd", keyId: "0036f13bca1c5603b9f3bb28ec28fa80", key: "f01403bcb5a02c61153d297fb0c4395f",
 		file: "https://linear305-it-dash1-prd-akp2.cdn13.skycdp.com/016a/31248/FHD/skysportmax/master.mpd", content: "sport"
 	},
 	{
-		title: "GOLF", type: "mpd", keyId: "00360b7729f74bf56a0a4eb0eda15ec5", key: "f8a5f4723c71ac84c2f1ff6f55939a63",
+		title: "SPORT GOLF", type: "mpd", keyId: "00360b7729f74bf56a0a4eb0eda15ec5", key: "f8a5f4723c71ac84c2f1ff6f55939a63",
 		file: "https://linear309-it-dash1-prd-akp2.cdn13.skycdp.com/016a/32768/FHD/skysportgolf/master.mpd", content: "sport"
 	},
     {
-		title: "CALCIO", type: "mpd", keyId: "00362f95db61eba0e6f14acee3f71e01", key: "fb74cd84b53c7557e18424a3356c4665",
+		title: "SPORT CALCIO", type: "mpd", keyId: "00362f95db61eba0e6f14acee3f71e01", key: "fb74cd84b53c7557e18424a3356c4665",
 		file: "https://linear302-it-dash1-prd.selector.skycdn.it/016a/31209/FHD/skysportseriea/master.mpd", content: "sport"
 	},
     {
@@ -45,11 +45,10 @@ let channels =
 		file: "https://dcf-de-livedazn.daznedge.net/dash/dazn-linear-024/stream.mpd?p=web", content: "calcio"
 	},
 	{
-		// "9d042fa273964e24a9109e23f4e313cc":"540e3601e1b82192c76c7411ad9c8c8e"
-		// "801d9e39d41a49418615f7cee4b6e031":"84b9bec014f0509ee2a4296e5877cf40"
 		// "cf513b83f32d4234a7b4982ae9ca3161":"68293d1b7143588339baeaedbe3939d9"
 		// "014e7cf40d9e490a812964f4aa72449e":"01b8caafb230eb2a07cc965d54ef4441"
-		title: "ELEVEN SPORT", type: "mpd", keyId: "9d042fa273964e24a9109e23f4e313cc", key: "540e3601e1b82192c76c7411ad9c8c8e",
+		// title: "ELEVEN SPORT", type: "mpd", keyId: "9d042fa273964e24a9109e23f4e313cc", key: "540e3601e1b82192c76c7411ad9c8c8e",
+        title: "ELEVEN SPORT", type: "mpd", keyId: "801d9e39d41a49418615f7cee4b6e031", key: "84b9bec014f0509ee2a4296e5877cf40",
 		file: "https://r.dcs.redcdn.pl/webcache/canalplus2/live/store01/11Sports1/hd2-dashdrm02/11Sports1.mpd", content: "calcio"
 	},
 	{
