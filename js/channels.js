@@ -41,6 +41,14 @@ let channels =
 		file: "https://linear302-it-dash1-prd.selector.skycdn.it/016a/31209/FHD/skysportseriea/master.mpd", content: "sport"
 	},
     {
+		title: "EUROSPORT 1", type: "mpd", keyId: "0036bb3fa7e6f2c334d7cba5c28b6caf", key: "217fa35739cd68e90b2cd23322c01312",
+		file: "https://linear311-it-dash1-prd.selector.skycdn.it/016a/313073/FHD/eurosport/master.mpd", content: "sport"
+	},
+    {
+		title: "EUROSPORT 2", type: "mpd", keyId: "003670a7034342a4a07c91173818c61c", key: "7b90055c1a1ea34d9090e9ebf6c4db8a",
+		file: "https://linear312-it-dash1-prd-akp2.cdn13.skycdp.com/016a/31150/FHD/eurosport2/master.mpd", content: "sport"
+	},
+    {
 		title: "DAZN", type: "mpd", keyId: "8ab47741930c476780515f9a00decb0a", key: "7ab4b9ae5a48aa526e511a913b832769",
 		file: "https://dcf-de-livedazn.daznedge.net/dash/dazn-linear-024/stream.mpd?p=web", content: "calcio"
 	},
