@@ -45,10 +45,10 @@ let channels =
 		file: "https://dcf-de-livedazn.daznedge.net/dash/dazn-linear-024/stream.mpd?p=web", content: "calcio"
 	},
 	{
-		// "cf513b83f32d4234a7b4982ae9ca3161":"68293d1b7143588339baeaedbe3939d9"
-		// "014e7cf40d9e490a812964f4aa72449e":"01b8caafb230eb2a07cc965d54ef4441"
 		// title: "ELEVEN SPORT", type: "mpd", keyId: "9d042fa273964e24a9109e23f4e313cc", key: "540e3601e1b82192c76c7411ad9c8c8e",
         title: "ELEVEN SPORT", type: "mpd", keyId: "801d9e39d41a49418615f7cee4b6e031", key: "84b9bec014f0509ee2a4296e5877cf40",
+        // title: "ELEVEN SPORT", type: "mpd", keyId: "cf513b83f32d4234a7b4982ae9ca3161", key: "68293d1b7143588339baeaedbe3939d9",
+        // title: "ELEVEN SPORT", type: "mpd", keyId: "014e7cf40d9e490a812964f4aa72449e", key: "01b8caafb230eb2a07cc965d54ef4441",
 		file: "https://r.dcs.redcdn.pl/webcache/canalplus2/live/store01/11Sports1/hd2-dashdrm02/11Sports1.mpd", content: "calcio"
 	},
 	{
@@ -127,10 +127,18 @@ let channels =
 		title: "CINEMA ROMANCE", type: "mpd", keyId: "00362d0a5efbd10ab56a3f502f2be023", key: "61c8c429f412ea52e06d9663c48ee9b7",
 		file: "https://linear301-it-dash1-prd.selector.skycdn.it/016a/32231/FHD/cinemaromance/master.mpd", content: "cinema"
 	},
-	{
-		title: "DOCUMENTARI", type: "mpd", keyId: "0036de0a1c44a2c972fcf64c9b7f4302", key: "0ade9234f6c56636ad6bb1b3560ddb31",
-		file: "https://linear313-it-dash1-prd.selector.skycdn.it/016a/31697/FHD/skydocumentaries/master.mpd", content: "intrattenimento"
-	},
+    {
+        title: "UNO", type: "mpd", keyId: "003610b8556000936e48061cdb4ee11a", key: "2cd6bcc2160aa6ec048e5a5f7a0f73c8",
+        file: "ttps://linear313-it-dash1-prd.selector.skycdn.it/016a/32477/FHD/skyuno/master.mpd", content: "intrattenimento"
+    },
+    {
+        title: "ATLANTIC", type: "mpd", keyId: "0036d37875a7307fd4551bcd6e466882", key: "a8cdc74a5d05c7a45c551af45aa5549c",
+        file: "https://linear315-it-dash1-prd-akp2.cdn13.skycdp.com/016a/31226/FHD/skyatlantic/master.mpd", content: "intrattenimento"
+    },
+    {
+        title: "SERIE", type: "mpd", keyId: "00366cd68acfb019e5d302f452c96ed7", key: "fbb59d554722277be85b0728c13051ab",
+        file: "https://linear315-it-dash1-prd-akp2.cdn13.skycdp.com/016a/31684/FHD/skyserie/master.mpd", content: "intrattenimento"
+    },
 	{
 		title: "CRIME", type: "mpd", keyId: "0036de91177ccee5fdfd4929c099854f", key: "f40263272212aacdcf7e405cfb4b4a91",
 		file: "https://linear315-it-dash1-prd.selector.skycdn.it/016a/32249/FHD/skycrime/master.mpd", content: "intrattenimento"
@@ -139,4 +147,28 @@ let channels =
 		title: "INVESTIGATION", type: "mpd", keyId: "003689703a245806508e9d332ed323ee", key: "ef229589d2f7afa40904b6d62c852acf",
 		file: "https://linear315-it-dash1-prd.selector.skycdn.it/016a/32686/FHD/skyinvestigation/master.mpd", content: "intrattenimento"
 	},
+	{
+		title: "DOCUMENTARI", type: "mpd", keyId: "0036de0a1c44a2c972fcf64c9b7f4302", key: "0ade9234f6c56636ad6bb1b3560ddb31",
+		file: "https://linear313-it-dash1-prd.selector.skycdn.it/016a/31697/FHD/skydocumentaries/master.mpd", content: "intrattenimento"
+	},
+    {
+        title: "NATURE", type: "mpd", keyId: "0036dd4a767d1d1e6faa72be9b2edde3", key: "60250673f0f5c54deac7c8f6d883c329",
+        file: "https://linear313-it-dash1-prd.selector.skycdn.it/016a/32695/FHD/skynature/master.mpd", content: "intrattenimento"
+    },
+    {
+        title: "HISTORY CHANNEL", type: "mpd", keyId: "00362ec3497a383021f1db77c8556614", key: "8820fb9b2afd6e1a3f4f5ab1ba4a73ad",
+        file: "https://linear313-it-dash1-prd.selector.skycdn.it/016a/31513/FHD/history/master.mpd", content: "intrattenimento"
+    },
+    {
+        title: "ARTE", type: "mpd", keyId:"0036798d4dc4ce189b2f029a4b4aa06c", key: "4f668ba0ef796d807c90613b9e2e61bf",
+        file: "https://linear313-it-dash1-prd-akp2.cdn13.skycdp.com/016a/32074/FHD/skyarte/master.mpd", content: "intrattenimento"
+    },
+    {
+        title: "MTV", type: "mpd", keyId:"00364d417e7aab8e6a92c963f2d24549", key: "a875a90e31b98eab8430e894ee5a853e",
+        file: "https://linear315-it-dash1-prd-akg0.cdn13.skycdp.com/016a/32763/FHD/mtvnext/master.mpd", content: "intrattenimento"
+    },
+    {
+        title: "COMEDY CENTRAL", type: "mpd", keyId: "0036f3ec4ac7d836b5bf9fa79f3041b6", key: "c02271563d97b1e7e755484279f2b55c",
+        file: "https://linear309-it-dash1-prd-akp1.cdn13.skycdp.com/016a/32404/comedycentral/master.mpd", content: "intrattenimento"
+    }
 ];
