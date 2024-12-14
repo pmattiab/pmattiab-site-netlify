@@ -173,12 +173,12 @@ let channels =
         file: "https://linear313-it-dash1-prd-akp2.cdn13.skycdp.com/016a/32074/FHD/skyarte/master.mpd", content: "intrattenimento"
     },
     {
-        title: "DMAX", type: "m3u8", keyId:"", key: "",
-        file: "https://amg16146-wbdi-amg16146c8-samsung-it-1841.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-dmax-samsungit/playlist.m3u8", content: "intrattenimento"
+        title: "DMAX", type: "m3u8", content: "intrattenimento",
+        file: "https://amg16146-wbdi-amg16146c8-samsung-it-1841.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-dmax-samsungit/playlist.m3u8"
     },
     {
-        title: "MTV", type: "mpd", keyId:"00364d417e7aab8e6a92c963f2d24549", key: "a875a90e31b98eab8430e894ee5a853e",
-        file: "https://linear315-it-dash1-prd-akg0.cdn13.skycdp.com/016a/32763/FHD/mtvnext/master.mpd", content: "intrattenimento"
+        title: "REAL TIME", type: "m3u8", content: "intrattenimento",
+        file: "https://amg16146-wbdi-amg16146c2-samsung-it-1835.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-realtime-samsungit/playlist.m3u8"
     },
     {
         title: "MTV", type: "mpd", keyId:"00364d417e7aab8e6a92c963f2d24549", key: "a875a90e31b98eab8430e894ee5a853e",
