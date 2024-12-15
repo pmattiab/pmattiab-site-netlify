@@ -59,10 +59,6 @@ let channels =
         // title: "ELEVEN SPORT 1", type: "mpd", keyId: "014e7cf40d9e490a812964f4aa72449e", key: "01b8caafb230eb2a07cc965d54ef4441",
 		file: "https://r.dcs.redcdn.pl/webcache/canalplus2/live/store01/11Sports1/hd2-dashdrm02/11Sports1.mpd", content: "calcio"
 	},
-    {
-        title: "ELEVEN SPORT 2", type: "mpd", keyId: "8331b6fdb5d14cdb82ff4895b997704c", key: "2efbc6cd610345be9401fafd818c4dc4",
-		file: "https://r.dcs.redcdn.pl/webcache/canalplus2/live/store01/11Sports2/hd2-dashdrm02/11Sports2.mpd", content: "calcio"
-	},
 	{
 		title: "CALCIO", type: "mpd", keyId: "00362f95db61eba0e6f14acee3f71e01", key: "fb74cd84b53c7557e18424a3356c4665",
 		file: "https://linear302-it-dash1-prd.selector.skycdn.it/016a/31209/FHD/skysportseriea/master.mpd", content: "calcio"
