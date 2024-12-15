@@ -50,8 +50,7 @@ let channels =
 	},
     {
 		title: "DAZN", type: "mpd", keyId: "8ab47741930c476780515f9a00decb0a", key: "7ab4b9ae5a48aa526e511a913b832769",
-		//file: "https://dcf-de-livedazn.daznedge.net/dash/dazn-linear-024/stream.mpd?p=web", content: "calcio"
-        file: "https://dcf-de-livedazn.daznedge.net/dash/dazn-linear-024/stream.mpd", content: "calcio"
+		file: "https://dcf-de-livedazn.daznedge.net/dash/dazn-linear-024/stream.mpd?p=web", content: "calcio"
 	},
 	{
 		// title: "ELEVEN SPORT", type: "mpd", keyId: "9d042fa273964e24a9109e23f4e313cc", key: "540e3601e1b82192c76c7411ad9c8c8e",
