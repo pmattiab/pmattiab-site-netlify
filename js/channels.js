@@ -64,7 +64,7 @@ let channels =
 		file: "https://ec01-tpnet-waw.cdn-canalplus.pl/live/store01/11Sports1/hd2-dashdrm02/11Sports1.mpd", content: "calcio"
 	},
 	{
-		title: "ELEVEN SPORT 2", type: "mpd", keyId: "4e1df327c661472f96319dd7e98bf5bd", key: "36263f85c3c25a131f47cee90924e1f3",
+		title: "ELEVEN SPORT 22", type: "mpd", keyId: "4e1df327c661472f96319dd7e98bf5bd", key: "36263f85c3c25a131f47cee90924e1f3",
 		file: "https://ec01-tpnet-waw.cdn-canalplus.pl/live/store01/11Sports2/hd2-dashdrm02/11Sports2.mpd", content: "calcio"
 	},
 	{
