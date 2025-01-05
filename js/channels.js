@@ -60,6 +60,14 @@ let channels =
 		file: "https://r.dcs.redcdn.pl/webcache/canalplus2/live/store01/11Sports1/hd2-dashdrm02/11Sports1.mpd", content: "calcio"
 	},
 	{
+		title: "ELEVEN SPORT 11", type: "mpd", keyId: "9d042fa273964e24a9109e23f4e313cc", key: "540e3601e1b82192c76c7411ad9c8c8e",
+		file: "https://cors-proxy.cluster.fun/https://ec01-tpnet-waw.cdn-canalplus.pl/live/store01/11Sports1/hd2-dashdrm02/11Sports1.mpd", content: "calcio"
+	},
+	{
+		title: "ELEVEN SPORT 2", type: "mpd", keyId: "4e1df327c661472f96319dd7e98bf5bd", key: "36263f85c3c25a131f47cee90924e1f3",
+		file: "https://cors-proxy.cluster.fun/https://ec01-tpnet-waw.cdn-canalplus.pl/live/store01/11Sports2/hd2-dashdrm02/11Sports2.mpd", content: "calcio"
+	},
+	{
 		title: "CALCIO", type: "mpd", keyId: "00362f95db61eba0e6f14acee3f71e01", key: "fb74cd84b53c7557e18424a3356c4665",
 		file: "https://linear302-it-dash1-prd.selector.skycdn.it/016a/31209/FHD/skysportseriea/master.mpd", content: "calcio"
 	},
