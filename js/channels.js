@@ -53,6 +53,10 @@ let channels =
 		file: "https://dcf-de-livedazn.daznedge.net/dash/dazn-linear-024/stream.mpd?p=web", content: "calcio"
 	},
 	{
+		title: "DAZN1", type: "mpd", keyId: "82f8e2a17dac44c0a18f660479349c59", key: "1b144f73e6fefe91cd05f850e2b589d0",
+		file: "https://dce-ak-livewwdazn.akamaized.net/dashdrm/dazn-linear-024/stream.mpd", content: "calcio"
+	},
+	{
 		title: "CALCIO", type: "mpd", keyId: "00362f95db61eba0e6f14acee3f71e01", key: "fb74cd84b53c7557e18424a3356c4665",
 		file: "https://linear302-it-dash1-prd.selector.skycdn.it/016a/31209/FHD/skysportseriea/master.mpd", content: "calcio"
 	},
